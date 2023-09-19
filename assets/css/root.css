@@ -20,9 +20,11 @@
 .fs-xs{
     font-size: var(--fs-14);
 }
-.fs-sm{
+
+.fs-sm {
     font-size: var(--fs-15);
 }
+
 .fs-sm {
     font-size: var(--fs-13);
 }
