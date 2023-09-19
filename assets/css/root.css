@@ -1,33 +1,58 @@
-:root{
+:root {
     /* color  */
-    --black-500:black;
-    --red:#C2190E;
+    --black-500: black;
+    --black-100: #E5E5E5;
+    --red: #C2190E;
     /* font-size  */
+<<<<<<< HEAD
     --fs-14:14px;
     --fs-15:15px;
     --fs-16:16px;
     --fs-36:36px;
+=======
+    --fs-13: 13px;
+    --fs-15: 15px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-28: 28px;
+    --fs-36: 36px;
+>>>>>>> 98c56fdc5ece2a815f28d02da7094458597ce147
     /* font-family  */
-    --ff-p:'Poppins', sans-serif;
+    --ff-p: 'Poppins', sans-serif;
 }
+<<<<<<< HEAD
 .fs-xs{
     font-size: var(--fs-14);
 }
 .fs-sm{
     font-size: var(--fs-15);
+=======
+
+.fs-sm {
+    font-size: var(--fs-13);
+>>>>>>> 98c56fdc5ece2a815f28d02da7094458597ce147
 }
-.fs-base{
-    font-size: var(--fs-16);
+
+.fs-base {
+    font-size: var(--fs-14);
 }
-.fs-4xl{
-    font-size: var(--fs-36);
+
+.fs-4xl {
+    font-size: var(--fs-28);
 }
-.ff-p{
+
+.ff-p {
     font-family: var(--ff-p);
 }
-.color-red{
+
+.color-red {
     color: var(--red);
 }
-.bg-red{
+
+.bg-red {
     background-color: var(--red);
+}
+
+.bg-black-100 {
+    background-color: var(--black-100);
 }
