@@ -3,11 +3,15 @@
     --black-500:black;
     --red:#C2190E;
     /* font-size  */
+    --fs-14:14px;
     --fs-15:15px;
     --fs-16:16px;
     --fs-36:36px;
     /* font-family  */
     --ff-p:'Poppins', sans-serif;
+}
+.fs-xs{
+    font-size: var(--fs-14);
 }
 .fs-sm{
     font-size: var(--fs-15);
