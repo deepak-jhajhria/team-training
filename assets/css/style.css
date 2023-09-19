@@ -138,6 +138,12 @@
 .pt-39 {
     padding-top: 39px;
 }
+.pt-60{
+    padding-top: 20px;
+}
+.min-287{
+    min-height: 287px;
+}
 
 @media (min-width:576px) {
     .max-253 {
@@ -186,6 +192,9 @@
         max-width: 253px;
         max-height: 60px;
     }
+    .pt-60{
+        padding-top: 40px;
+    }
 
 }
 
@@ -209,6 +218,9 @@
 
     .pt-120 {
         padding-top: 120px;
+    }
+    .pt-60{
+        padding-top: 60px;
     }
 }
 
