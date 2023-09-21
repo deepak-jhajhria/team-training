@@ -5,16 +5,8 @@
     color: var(--red) !important;
 }
 
-.gap-15 {
-    gap: 15px;
-}
-
 .gap-12 {
     gap: 12px;
-}
-
-.gap-24 {
-    gap: 24px;
 }
 
 .py-20 {
@@ -43,10 +35,6 @@
     max-height: 40px;
 }
 
-.min-557 {
-    min-height: 557px;
-}
-
 .max-1096 {
     max-width: 1096px;
 }
@@ -56,8 +44,8 @@
 }
 
 .line {
-    max-width: 88px;
-    max-height: 4px;
+    width: 88px;
+    height: 4px;
     background-color: var(--red);
 }
 
@@ -68,6 +56,10 @@
 
 .span4 {
     rotate: 45deg;
+    transition: .4s
+}
+
+.transition-4 {
     transition: .4s
 }
 
@@ -123,10 +115,6 @@
     transition: .4s;
 }
 
-.ovrflowH {
-    overflow: hidden;
-}
-
 .card_sec4 {
     border: 1px solid rgba(0, 0, 0, 0.16);
     min-height: 430px;
@@ -153,6 +141,7 @@
 .card_sec5:hover {
     border: 1px solid rgba(0, 0, 0, 0.16) !important;
     border-radius: 20px;
+    height: 100%;
 }
 
 .pb-33 {
@@ -224,8 +213,6 @@
     }
 
 }
-
-@media (min-width:992px) {}
 
 @media (min-width:1140px) {
     .item-1 {
